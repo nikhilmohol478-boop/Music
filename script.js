@@ -5,10 +5,41 @@ const recommendations = document.getElementById('recommendations');
 
 // Sample mood-to-songs map (replace this with AI / Spotify API later)
 const moodSongs = {
-  happy: ["Happy - Pharrell Williams", "Can't Stop the Feeling - Justin Timberlake", "Good Life - OneRepublic"],
-  sad: ["Someone Like You - Adele", "Fix You - Coldplay", "Stay With Me - Sam Smith"],
-  energetic: ["Eye of the Tiger - Survivor", "Don't Stop Me Now - Queen", "Stronger - Kanye West"],
-  relaxed: ["Weightless - Marconi Union", "Sunset Lover - Petit Biscuit", "River Flows In You - Yiruma"]
+  happy: [
+    "Mala Jau Dya Na Ghari - Ajay–Atul", 
+    "Zingaat - Ajay–Atul", 
+    "Badtameez Dil - Yeh Jawaani Hai Deewani", 
+    "Kar Gayi Chull - Kapoor & Sons", 
+    "Happy - Pharrell Williams"
+  ],
+  sad: [
+    "Sukh Mhanje Nakki Kay Asta - Ajay–Atul", 
+    "Mannat Lagu - Swapnil Bandodkar", 
+    "Channa Mereya - Ae Dil Hai Mushkil", 
+    "Tujhe Kitna Chahne Lage - Kabir Singh", 
+    "Someone Like You - Adele"
+  ],
+  energetic: [
+    "Dhagala Lagli Kala - Ajay–Atul", 
+    "Deva Tujhya Gabharyala - Ajay–Atul", 
+    "Zinda - Bhaag Milkha Bhaag", 
+    "Jai Ho - Slumdog Millionaire", 
+    "Don't Stop Me Now - Queen"
+  ],
+  relaxed: [
+    "Hi Chaal Turu Turu - Ajay–Atul", 
+    "Jeev Rangla - Ajay–Atul", 
+    "Kabira - Yeh Jawaani Hai Deewani", 
+    "Raabta - Agent Vinod", 
+    "River Flows In You - Yiruma"
+  ],
+  angry: [
+    "Kombdi Palali - Ajay–Atul", 
+    "Wajle Ki Bara - Ajay–Atul", 
+    "Bulleya - Ae Dil Hai Mushkil", 
+    "Malang - Malang", 
+    "Eye of the Tiger - Survivor"
+  ]
 };
 
 recommendBtn.addEventListener('click', () => {
