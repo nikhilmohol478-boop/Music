@@ -39,6 +39,34 @@ const moodSongs = {
     "Bulleya - Ae Dil Hai Mushkil", 
     "Malang - Malang", 
     "Eye of the Tiger - Survivor"
+  ],
+  confused: [
+    "Mann Udhan Varyache - Ajay–Atul",
+    "Bhungroo - Ajay–Atul",
+    "Agar Tum Saath Ho - Tamasha",
+    "Kal Ho Naa Ho - Title Track",
+    "Lost - Coldplay"
+  ],
+  excited: [
+    "Apsara Aali - Ajay–Atul",
+    "Ye Jo Des Hai Tera - Swades",
+    "Gallan Goodiyaan - Dil Dhadakne Do",
+    "Balam Pichkari - Yeh Jawaani Hai Deewani",
+    "Uptown Funk - Mark Ronson ft. Bruno Mars"
+  ],
+  curious: [
+    "Sairat Zaala Ji - Ajay–Atul",
+    "Katyar Kaljat Ghusali - Title Song",
+    "Dil Dhadakne Do - Title Track",
+    "Tum Hi Ho - Aashiqui 2",
+    "Adventure of a Lifetime - Coldplay"
+  ],
+  surprised: [
+    "Mala Ved Lagale - Ajay–Atul",
+    "Kiti Sangaychay Mala - Ajay–Atul",
+    "Jai Ho - Slumdog Millionaire",
+    "Ghungroo - War",
+    "Happy Now - Kygo"
   ]
 };
 
